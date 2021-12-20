@@ -6,20 +6,22 @@
 }
 body{
     margin: 0;
+    background-color: darkblue;
 }
 .container{
     width: 1200px;
     margin: auto;
     max-width: 100%;
     background-color: blue;
+    
 }
 .content{
-    
+    width: 100%;
 }
 .flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .flex img{
     width: 50px;
@@ -40,14 +42,12 @@ body{
     background-color: red;
     padding: 7px;
     border-radius: 15px;
+    margin-right: 10px;
 }
 .section{
-    margin: auto;
     color: white;
-    width: 1000px;
-}
-.text{
-   
+    margin-left: 70px;
+    margin-top: 150px;
 }
 .text-2{
     display: flex;
@@ -60,7 +60,6 @@ body{
 .capsule{
     display: flex;
     flex-wrap: wrap;
-    padding: 0 15px;
 }
 .col-6{
     padding: 0 15px;
@@ -75,7 +74,29 @@ body{
     text-align: center;
     width: 40px;
     height: 40px;
+    padding: 10px;
 }
 .col-6 p {
     text-align: center;
 }
+.link-2 a{
+    color: white;
+    background-color: crimson;
+    padding: 5px 35px ;
+    border-radius: 25px;
+}
+.link-2{
+    margin-top: 50px;
+}
+img{
+    width: 350px;
+    height: 100%;
+    max-width: 100%;
+}
+.image img{
+    position: relative;
+    left: 630px;
+    bottom: 500px;
+    transform: rotate(10deg);
+}
+
